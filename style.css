@@ -1,0 +1,88 @@
+.titlebox{
+    margin-top: 5px;
+    height:100px;
+    width:100%;
+    background-color: darkslateblue;
+    color:floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:45vmin;
+    width:100%;
+    /* background-color: rgb(236, 181, 181); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rock{
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    background-image: url("rock.png");
+    background-size: cover;
+    margin-right: 1rem;
+}
+#paper{
+     height: 250px;
+    width:250px;
+    border-radius: 50%;
+    background-image: url("paper.png");
+    background-size: cover;
+    margin-right: 1rem;
+}
+#scissors{
+ height: 250px;
+    width:250px;
+    border-radius: 50%;
+    background-image: url("scissors.png");
+    background-size: cover;
+}
+.score-board{
+    height:30vmin;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    font-size: 35px;
+    height:25vmin;
+    width:25vmin;
+    text-align: center;
+}
+.msg-container{
+     font-size: 35px;
+     text-align: center;
+     margin-top: 3rem;
+}
+.choice:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+#user,#comp,#draw{
+    font-size:70px;
+}
+#msg{
+    margin-top: 3rem;
+    display:inline;
+    height:50px;
+    background-color: black;
+    color: white;
+    padding:1rem;
+    border-radius: 10px;
+}
+#reset{
+    margin-top: 3rem;
+    margin-left: 3rem;;
+    display:inline;
+    height:50px;
+    background-color: black;
+    color: white;
+    padding:1rem;
+    border-radius: 10px;
+}
+.msg-container:hover{
+    cursor: pointer;
+}
